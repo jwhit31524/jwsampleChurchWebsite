@@ -1,0 +1,382 @@
+﻿body {
+}
+
+div#header {
+    width: 100%;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background-color: #F0F0F0;
+}
+
+div#header2 {
+    width: 100%;
+    height: 360px;
+    /*top: 90px;*/
+    left: 0;
+    background-color: #D0D0D0;
+    top: 91px;
+    color: white;
+}
+
+    div#header2 h2 {
+
+        align-content: center;
+        top: 3em;
+        margin: 90px, 90px, 90px, 90px;
+    }
+
+    nav#mainnav {
+        width: 100%;
+        margin-left: 1em;
+        top: 91px;
+    }
+
+    nav#mainnav ul {
+        list-style-type: none;
+
+    }
+        nav#mainnav ul li {
+            background-color: #b3e0ff;
+            text-align: center;
+            display: inline;
+            width: 10%;
+            float: left;
+            margin-left: .5em;
+            border-radius: 10px;
+        }
+
+            nav#mainnav ul li a {
+                list-style-type: none;
+                font-family: sans-serif, 'Kunstler Script', sans-serif;
+                font-size: .9em;
+                font-weight: 900;
+                text-decoration: none;
+                color: black;
+                display: block;
+                padding: .75em;
+             
+            }
+            
+div#givingOpportunities {
+    /* display: inline-block;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+div#titheDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+div#missionsDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+div#foodPantryDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+div#associatePastorDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.button {
+    font-family: sans-serif;
+    background-color: #E8E8E8;
+    width: 200px;
+    color: #404040;
+    font-weight: bold;
+}
+
+p {
+   color: black;
+}
+
+div#ourStaff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#waysToConnect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#mediaDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#audioMessagesDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+div#videoMessagesDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+div#nurseryDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+div#youthActivitiesDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+div#teensDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+div#adultClassesDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+div#pastorDescriptionDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+div#associatePastorDescriptionDiv {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+div#givingPageID {
+    display: flex;
+    float: left;
+    justify-content: left;
+    padding-top: 4em;
+}
+
+
+article {
+    background-color: #e6f5ff;
+}
+
+/*smallscreen styles*/
+@media screen and (min-width: 0px) , print {
+    div#header {
+        width: 50%;
+        height: 90px;
+        top: 0;
+        left: 0;
+        background-color: #F0F0F0;
+    }
+
+    div#givingPageID {
+        display: flex;
+        float: left;
+        justify-content: left;
+        padding-top: 4em;
+    }
+
+
+    div#header2 {
+        width: 50%;
+        height: 360px;
+        /*top: 90px;*/
+        left: 0;
+        background-color: #D0D0D0;
+        top: 91px;
+        color: white;
+    }
+
+        div#header2 h2 {
+            align-content: center;
+            top: 3em;
+            margin: 90px, 90px, 90px, 90px;
+        }
+
+    nav#mainnav {
+        width: 50%;
+        margin-left: 1em;
+        top: 91px;
+    }
+
+        nav#mainnav ul {
+            list-style-type: none;
+        }
+
+            nav#mainnav ul li {
+                background-color: #b3e0ff;
+                text-align: center;
+                display: inline;
+                width: 10%;
+                float: left;
+                margin-left: .5em;
+                border-radius: 10px;
+            }
+
+                nav#mainnav ul li a {
+                    list-style-type: none;
+                    font-family: sans-serif, 'Kunstler Script', sans-serif;
+                    font-size: .6em;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    padding: .35em;
+                }
+}
+
+    /*standard screen styles*/
+
+
+@media screen and (min-width: 800px), print {
+    div#header {
+        width: 80%;
+        height: 90px;
+        top: 0;
+        left: 0;
+        background-color: #F0F0F0;
+    }
+
+    div#givingPageID {
+        display: flex;
+        float: left;
+        justify-content: left;
+        padding-top: 4em;
+    }
+
+    div#header2 {
+        width: 100%;
+        height: 360px;
+        /*top: 90px;*/
+        left: 0;
+        background-color: #D0D0D0;
+        top: 91px;
+        color: white;
+    }
+
+        div#header2 h2 {
+            align-content: center;
+            top: 3em;
+            margin: 90px, 90px, 90px, 90px;
+        }
+
+    nav#mainnav {
+        width: 80%;
+        margin-left: 1em;
+        top: 91px;
+    }
+
+        nav#mainnav ul {
+            list-style-type: none;
+        }
+
+            nav#mainnav ul li {
+                background-color: #b3e0ff;
+                text-align: center;
+                display: inline;
+                width: 10%;
+                float: left;
+                margin-left: .5em;
+                border-radius: 10px;
+            }
+
+                nav#mainnav ul li a {
+                    list-style-type: none;
+                    font-family: sans-serif, 'Kunstler Script', sans-serif;
+                    font-size: .9em;
+                    font-weight: 900;
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    padding: .75em;
+                }
+}
+}
+
+        /*large screen styles*/
+@media screen and (min-width: 1405px), print {
+    div#header {
+        width: 100%;
+        height: 90px;
+        top: 0;
+        left: 0;
+        background-color: #F0F0F0;
+    }
+    div#givingPageID {
+        display: flex;
+        float: left;
+        justify-content: left;
+        padding-top: 4em;
+    }
+
+    div#givingFormID {
+        display: flex;
+        float: left;
+        justify-content: left;
+        padding-top: 4em;
+    }
+
+
+    div#header2 {
+        width: 100%;
+        height: 360px;
+        /*top: 90px;*/
+        left: 0;
+        background-color: #D0D0D0;
+        top: 91px;
+        color: white;
+    }
+
+        div#header2 h2 {
+            align-content: center;
+            top: 3em;
+            margin: 90px, 90px, 90px, 90px;
+        }
+
+    nav#mainnav {
+        width: 100%;
+        margin-left: 1em;
+        top: 91px;
+    }
+
+        nav#mainnav ul {
+            list-style-type: none;
+        }
+
+            nav#mainnav ul li {
+                background-color: #b3e0ff;
+                text-align: center;
+                display: inline;
+                width: 10%;
+                float: left;
+                margin-left: .5em;
+                border-radius: 10px;
+            }
+
+                nav#mainnav ul li a {
+                    list-style-type: none;
+                    font-family: sans-serif, 'Kunstler Script', sans-serif;
+                    font-size: .9em;
+                    font-weight: 900;
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    padding: .75em;
+                }
+}
+        }
