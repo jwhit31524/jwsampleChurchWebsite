@@ -231,8 +231,8 @@ article {
                 nav#mainnav ul li a {
                     list-style-type: none;
                     font-family: sans-serif, 'Kunstler Script', sans-serif;
-                    font-size: .4em;
-                    font-weight: 200;
+                    font-size: .25em;
+                    font-weight: 300;
                     text-decoration: none;
                     color: black;
                     display: block;
