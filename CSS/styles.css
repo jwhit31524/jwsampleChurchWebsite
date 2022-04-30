@@ -1,4 +1,4 @@
-﻿body {
+body {
 }
 
 div#header {
@@ -175,9 +175,9 @@ article {
 }
 
 /*smallscreen styles*/
-@media screen and (min-width: 0px) , print {
+@media screen and (min-width: 320px) , print {
     div#header {
-        width: 50%;
+        width: 100%;
         height: 90px;
         top: 0;
         left: 0;
@@ -209,7 +209,7 @@ article {
         }
 
     nav#mainnav {
-        width: 50%;
+        width: 180%;
         margin-left: 1em;
         top: 91px;
     }
@@ -222,28 +222,28 @@ article {
                 background-color: #b3e0ff;
                 text-align: center;
                 display: inline;
-                width: 10%;
+                width: 5%;
                 float: left;
-                margin-left: .5em;
+                margin-left: .3em;
                 border-radius: 10px;
             }
 
                 nav#mainnav ul li a {
                     list-style-type: none;
                     font-family: sans-serif, 'Kunstler Script', sans-serif;
-                    font-size: .6em;
-                    font-weight: 400;
+                    font-size: .4em;
+                    font-weight: 200;
                     text-decoration: none;
                     color: black;
                     display: block;
-                    padding: .35em;
+                    padding: .15em;
                 }
 }
 
     /*standard screen styles*/
 
 
-@media screen and (min-width: 800px), print {
+@media screen and (min-width: 481px), print {
     div#header {
         width: 80%;
         height: 90px;
@@ -276,7 +276,7 @@ article {
         }
 
     nav#mainnav {
-        width: 80%;
+        width: 120%;
         margin-left: 1em;
         top: 91px;
     }
@@ -298,8 +298,8 @@ article {
                 nav#mainnav ul li a {
                     list-style-type: none;
                     font-family: sans-serif, 'Kunstler Script', sans-serif;
-                    font-size: .9em;
-                    font-weight: 900;
+                    font-size: .7em;
+                    font-weight: 700;
                     text-decoration: none;
                     color: black;
                     display: block;
@@ -309,7 +309,7 @@ article {
 }
 
         /*large screen styles*/
-@media screen and (min-width: 1405px), print {
+@media screen and (min-width: 769px), print {
     div#header {
         width: 100%;
         height: 90px;
